@@ -11,7 +11,7 @@ connectDb();
 
 // Middlewares
 app.use(cors({
-  origin: "https://food-blog-frontend.netlify.app",  // React frontend
+  origin: "https://food-blog-web.netlify.app",  // React frontend
   credentials: true
 }));
 app.use(express.json());
